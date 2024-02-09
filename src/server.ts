@@ -26,6 +26,7 @@ const main = async () => {
 
   // Init config
   const port = getConfig().PORT
+  console.error(port)
 
   // Init DB
   const dbConfig = {
